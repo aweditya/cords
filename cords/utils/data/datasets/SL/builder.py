@@ -10,7 +10,6 @@ from sklearn.preprocessing import StandardScaler
 from torch.utils.data import Dataset, random_split, TensorDataset
 from torchvision import transforms
 import PIL.Image as Image
-from sklearn.datasets import load_boston
 from cords.utils.data.data_utils import *
 import re
 import pandas as pd
